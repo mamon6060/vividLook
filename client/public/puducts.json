@@ -1,0 +1,48 @@
+[
+    {
+      "_id": 1,
+      "image": "https://i.ibb.co.com/7NRqb7Mh/daikin-inverter-split-ac-1-600x600.jpg",
+      "title": "Wireless Bluetooth Headphones",
+      "description": "High-quality wireless headphones with noise cancellation and long battery life.",
+      "salePrice": 1250.99,
+      "price": 2510.11,
+      "brand": "SoundTech"
+    },
+    {
+      "_id": 2,
+      "image": "https://i.ibb.co.com/JgXcYS8/elite-duct-1-600x544.png",
+      "title": "Smartwatch with Heart Rate Monitor",
+      "description": "Feature-rich smartwatch with fitness tracking and health monitoring.",
+      "salePrice": 58752.99,
+      "price": 65845.35,
+      "brand": "FitWear"
+    },
+    {
+      "_id": 3,
+      "image": "https://i.ibb.co.com/fYJmpfC0/ELITE-AC.jpg",
+      "title": "Gaming Mechanical Keyboard",
+      "description": "RGB-backlit mechanical keyboard with responsive keys for gaming.",
+      "salePrice": 458210.99,
+      "price": 5582140.52,
+      "brand": "GamePro"
+    },
+    {
+      "_id": 4,
+      "image": "https://i.ibb.co.com/x8rLqRDd/elite-ceiling-1-600x548.png",
+      "title": "4K Ultra HD Smart TV",
+      "description": "55-inch 4K smart TV with HDR and built-in streaming apps.",
+      "salePrice": 49900.97,
+      "price": 59900.92,
+      "brand": ""
+    },
+    {
+      "_id": 5,
+      "image": "https://i.ibb.co.com/ksvTHGtM/elite-cassette-1-600x594.png",
+      "title": "Portable Wireless Speaker",
+      "description": "Compact and waterproof Bluetooth speaker with deep bass.",
+      "salePrice": 39999.19,
+      "price": 49250.52,
+      "brand": "SoundBlast"
+    }
+  ]
+  

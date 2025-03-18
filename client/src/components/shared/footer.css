@@ -1,0 +1,4 @@
+
+.navLink li ::marker{
+    font-size: 0px;
+}

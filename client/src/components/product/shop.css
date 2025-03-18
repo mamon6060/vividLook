@@ -1,0 +1,16 @@
+.swiper-pagination-bullet-active{
+    color: white;
+    background-color: white !important;
+}
+.swiper-pagination-bullet{
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 10px;
+    height: 10px;
+}
+.herobanner .swiper-button-prev{
+display: none;
+}
+.herobanner .swiper-button-next{
+display: none;
+}
