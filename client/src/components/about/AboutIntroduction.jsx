@@ -8,14 +8,14 @@ const AboutIntroduction = () => {
       <Containar>
         <div className="my-24 w-full flex flex-col lg:flex-row justify-between items-center md:gap-10 gap-y-10">
           <div className="lg:w-1/2">
-            <h4 className="text-xl font-bold text-[#F4A51D]">
+            <h4 className="md:text-xl text-lg font-bold text-[#F4A51D]">
               Welcome to{" "}
               <span className="text-primary">Madina Refrigeration!</span>
             </h4>
-            <h1 className="text-4xl font-semibold my-4 mb-8">
-              We are building a better future
+            <h1 className="md:text-4xl text-2xl font-semibold my-4 mb-8">
+              We are building a better future 
             </h1>
-            <p className="text-lg leading-9 text-gray-500 text-justify">
+            <p className="md:text-lg text-base leading-9 text-gray-500 text-justify">
               Madina Refrigeration is dedicated to delivering high-quality
               repair services and durable components for ACs, fridges, and other
               cooling appliances. Our solutions ensure optimal performance,

@@ -22,7 +22,6 @@ const ContractForm = () => {
         event.target.reset();
       })
       .catch(function (error) {
-
         toast(error?.response?.data?.message);
       });
     // try {
@@ -44,7 +43,7 @@ const ContractForm = () => {
             {/* ----------------- */}
             <div className="flex flex-col md:flex-row items-center justify-center bg-gray-00 w-full mx-auto ">
               <div className="bg-white p-4 md:p-8 rounded-lg w-full ">
-                <h2 className="text-6xl font-bold mb-10 text-center">
+                <h2 className="lg:text-6xl md:text4xl text-3xl font-bold mb-10 text-center">
                   Get in Touch!
                 </h2>
                 <form onSubmit={handelContactForm} className="w-full">

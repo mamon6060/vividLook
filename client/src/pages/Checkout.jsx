@@ -25,7 +25,6 @@ const CheckOut = () => {
     postCode: "",
     streetAddress: "",
     notes: "",
-
   });
   const [bankDetails, setBankDetails] = useState({
     bank: "",
@@ -161,6 +160,7 @@ const CheckOut = () => {
       quantity: product.quantity,
     }));
   };
+  console.log("----productType----", agroCartProduct);
 
   // Calculate subtotal
   const calculateSubtotal = () => {
@@ -218,7 +218,6 @@ const CheckOut = () => {
 
   return (
     <div className="font-robo">
-     
       <div className="flex flex-col md:flex-row w-full gap-4 text-gray-600 px-2 md:px-20 mt-20">
         <div className="w-full md:w-2/3 border rounded-xl">
           <BillingDetails

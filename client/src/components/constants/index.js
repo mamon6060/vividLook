@@ -38,14 +38,14 @@ export const menulist = [
   //   title: "Events",
   //   link: "/events",
   // },
-  // {
-  //   title: "About",
-  //   link: "/about",
-  // },
-  // {
-  //   title: "Contact Us",
-  //   link: "/contact-us",
-  // },
+  {
+    title: "About",
+    link: "/about",
+  },
+  {
+    title: "Contact Us",
+    link: "/contact-us",
+  },
 ];
 
 export const socialLink = [

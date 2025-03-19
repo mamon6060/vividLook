@@ -43,7 +43,7 @@ const ChooseUs = () => {
             <h4 className="text-md font-bold text-[#269E4B] uppercase mb-3 tracking-wider">
               Why Our Clients Trust Us
             </h4>
-            <h1 className="text-4xl font-semibold text-gray-900 leading-tight">
+            <h1 className="md:text-4xl text-2xl font-semibold text-gray-900 leading-tight">
               Why Choose Madina Refrigeration?
             </h1>
           </div>
@@ -60,7 +60,7 @@ const ChooseUs = () => {
                 </div>
               </p>
               <div className="flex flex-col md:flex-row justify-between items-start gap-6 bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 border-t-4 border-transparent group-hover:border-[#269E4B]">
-                <h2 className="text-3xl font-medium text-gray-900 w-full md:w-1/2 group-hover:text-[#269E4B] transition-colors">
+                <h2 className="md:text-3xl text-xl font-medium text-gray-900 w-full md:w-1/2 group-hover:text-[#269E4B] transition-colors">
                   {topic.title}
                 </h2>
                 <p className="text-gray-600 w-full md:w-1/2 text-lg leading-relaxed">

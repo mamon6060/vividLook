@@ -21,11 +21,23 @@ const Product = () => {
   const token = useSelector((state) => state.auth.token);
 
   const handleAddtoCart = (product) => {
-    dispatch(addToAgroCart({ ...product, quantity: 1 }));
+    dispatch(
+      addToAgroCart({
+        ...product,
+        quantity: 1,
+        productType: "HomeApplianceProduct",
+      })
+    );
   };
 
   const handleBuyNow = (product) => {
-    dispatch(addToAgroCart({ ...product, quantity: 1 }));
+    dispatch(
+      addToAgroCart({
+        ...product,
+        quantity: 1,
+        productType: "HomeApplianceProduct",
+      })
+    );
     navigate("/checkout");
   };
 
@@ -141,7 +153,7 @@ const Product = () => {
             <Link to="/shop">
               <button className="bg-[#178843] hover:bg-[#24C462] duration-300 cursor-pointer rounded text-[#fff] md:px-6 px-4 py-3 font-medium flex items-center gap-2 justify-center md:mt-8 mt-6">
                 <span className="md:text-base text-sm tracking-wider">
-                  View Shop
+                  View Spare Parts
                 </span>
                 <span className="text-sm">
                   <FiPlus />

@@ -19,11 +19,23 @@ const ProductSlider = () => {
   const token = useSelector((state) => state.auth.token);
 
   const handleAddtoCart = (product) => {
-    dispatch(addToAgroCart({ ...product, quantity: 1 }));
+    dispatch(
+      addToAgroCart({
+        ...product,
+        quantity: 1,
+        productType: "HomeApplianceProduct",
+      })
+    );
   };
 
   const handleBuyNow = (product) => {
-    dispatch(addToAgroCart({ ...product, quantity: 1 }));
+    dispatch(
+      addToAgroCart({
+        ...product,
+        quantity: 1,
+        productType: "HomeApplianceProduct",
+      })
+    );
     navigate("/checkout");
   };
 

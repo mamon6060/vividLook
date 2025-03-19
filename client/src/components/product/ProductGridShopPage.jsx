@@ -27,15 +27,12 @@ const ProductGridShopPage = () => {
   const [products, setProducts] = useState([]);
   const [totalProducts] = useState(0);
 
-  const [ setCategoryList] = useState([]);
+  const [setCategoryList] = useState([]);
   const [loading, setLoading] = useState(false);
-
 
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const {  selectedRange, status } = useSelector(
-    (state) => state.priceRange
-  );
+  const { selectedRange, status } = useSelector((state) => state.priceRange);
 
   const sortOption = useSelector((state) => state.sort.sortOption);
 
